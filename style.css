@@ -1,0 +1,177 @@
+/*
+    font-family: 'Poppins', sans-serif;
+
+    font-family: 'Staatliches', cursive;
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.apresentacao {
+  width: 750px;
+  
+  margin: 0 auto;
+  padding-top: 140px;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+h1 {
+  padding-bottom: 18px;
+  font-family: 'Staatliches';
+  font-size: 48px;
+  color: white;
+  width: 163px;
+  height: 60px;
+  
+}
+
+p {
+  font-family: 'Poppins';
+  color: white;
+}
+
+body::before {
+  content: '';
+  width: 100%;
+  height: 436px;
+
+  position: absolute;
+  z-index: -1;
+  background-color: #535971;
+}
+  
+form {
+    background: #E6E6F0;
+    width: 736px;
+    min-height: 300px;
+    margin: 0 auto;
+    border-radius: 8px 8px 0 0;
+    padding: 64px;
+    margin-top: 58px; 
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-family: 'Staatliches';
+  color: #535971;
+  font-size: 24px;
+  border-bottom: 1px solid #d1d1d8;
+  width: 100%;
+  padding-bottom: 16px;
+}
+
+.legend2 {
+  margin-top: 30px;
+}
+
+.legend3 {
+  border: none;
+  font-size: 20px;
+  margin-top: 32px;
+  padding-bottom: 0px;
+}
+
+.legend4 {
+  margin-top: 16px;
+}
+
+span {
+  color: #aea9b9;
+  font-size: 12px;
+  align-items: center;
+  
+}
+
+span:hover {
+  color: #84808d;
+}
+
+.posicionamento .input-wrapper {
+ margin-top: 36px;
+}
+
+.input-wrapper {
+  margin-top: 16px;
+}
+
+.input-wrapper label {
+  font-family: 'Poppins';
+  color: #4E4958;
+  
+}
+
+.flex2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-wrapper input {
+  height: 56px;
+  border: 1px solid #d1d1d8;
+  background: #FAFAFC;
+  padding: 0 24px;
+  border-radius: 8px;
+}
+
+.flex {
+  display: flex;
+  gap: 22p;
+}
+
+.posicionamento {
+  display: flex;
+  gap: 22px;
+}
+
+.posicionamento2 {
+  display: flex;
+  gap: 10px;
+}
+
+.posicionamento3 {
+  display: flex;
+  gap: 32px;
+}
+
+
+input {
+  width: 100%;
+  margin-top: 8px;
+}
+
+footer {
+  content: '';
+  width: 736px;
+  min-height: 100px;
+  background-color: #535971;
+  margin: 0 auto;
+  margin-bottom: 362PX;
+  border-radius: 0 0 8px 8px;
+}
+
+button {
+  padding: 14px 279px;
+  margin: 52px 71px;
+  font-family: 'Staatliches';
+  background-color: #FF5374;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+button:hover {
+ background-color: #b84e63;
+ cursor: pointer;
+}
